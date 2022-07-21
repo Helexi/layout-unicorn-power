@@ -1,6 +1,7 @@
 Adaptive landing page based on figma layout
 
 <ul>
+  <li>320px</li>
   <li>640px</li>
   <li>1024px</li>
   <li>1600px</li>
