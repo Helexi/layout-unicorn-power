@@ -17,19 +17,19 @@ export const Footer = () => {
               <p className="footer__links-p">USEFUL LINKS</p>
             </li>
             <li className="footer__links-li">
-              <a className="footer__links-a link" href="/">Cookie Policy</a>
+              <Link className="footer__links-a link" to="/">Cookie Policy</Link>
             </li>
             <li className="footer__links-li">
-              <a className="footer__links-a link" href="/">Terms {`&`} Conditions</a>
+              <Link className="footer__links-a link" to="/">Terms {`&`} Conditions</Link>
             </li>
             <li className="footer__links-li">
-              <a className="footer__links-a link" href="/">Privacy Policy</a>
+              <Link className="footer__links-a link" to="/">Privacy Policy</Link>
             </li>
             <li className="footer__links-li">
-              <a className="footer__links-a link" href="/">Complaints Policy</a>
+              <Link className="footer__links-a link" to="/">Complaints Policy</Link>
             </li>
             <li className="footer__links-li">
-              <a className="footer__links-a link" href="/">Contact Us</a>
+              <Link className="footer__links-a link" to="/">Contact Us</Link>
             </li>
           </ul>
           <ul className="footer__contact-us-ul">
