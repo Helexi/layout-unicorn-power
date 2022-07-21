@@ -1,0 +1,56 @@
+@font-face {
+	font-family: 'HK Grotesk-Regular'; 
+	src: url(/src/fonts/HKGrotesk-Regular.otf); 
+  /* font-weight: 400; */
+}
+
+@font-face {
+	font-family: 'HK Grotesk-SemiBold'; 
+	src: url(/src/fonts/HKGrotesk-SemiBold.otf); 
+  /* font-weight: 600; */
+}
+
+@font-face {
+	font-family: 'HK Grotesk-Bold'; 
+	src: url(/src/fonts/HKGrotesk-Bold.otf); 
+  /* font-weight: 700; */
+}
+
+.section {
+  padding: 0 24px 0 24px;
+  display: grid;
+  max-width: 1575px;
+  margin: 0 auto;
+  gap: 8px;
+  margin-bottom: 56px;
+}
+
+@media (min-width: 400px) {
+  .section {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 700px) {
+  .section {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .section {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1300px) {
+  .section {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1500px) {
+  .section {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
