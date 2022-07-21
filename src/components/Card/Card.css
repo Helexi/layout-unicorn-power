@@ -1,0 +1,93 @@
+.card {
+  /* width: 272px; */
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  font-family: 'HK Grotesk-Regular', sans-serif;
+  background-color: #F4F4F4;
+  padding: 20px;
+  color: #A575AE;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.color-blue {
+  background-color: #5A3661;
+}
+
+.card__img {
+  width: 88px;
+  height: 82px;
+  margin-bottom: 16px;
+}
+
+.card__price {
+  display: flex;
+  font-family: 'HK Grotesk-Bold', sans-serif;
+  font-size: 40px;
+  line-height: 52px;
+  margin-bottom: 16px;
+}
+
+.card__price::before {
+  content: '£';
+  display: block;
+}
+
+.card__type {
+  font-family: 'HK Grotesk-Bold', sans-serif;
+  font-size: 24px;
+  line-height: 31px;
+  margin-bottom: 8px;
+}
+
+.card__subtitle {
+  margin-bottom: 32px;
+}
+
+.card__text {
+  margin-bottom: 32px;
+}
+
+.card__cashback {
+  display: flex;
+  font-family: 'HK Grotesk-Bold', sans-serif;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.card__cashback::before {
+  margin-right: 10px;
+  content: '£';
+  display: block;
+}
+
+.card__cashback-text {
+  font-family: 'HK Grotesk-Bold', sans-serif;
+  color: #000000;
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 32px;
+}
+
+.card__button {
+  cursor: pointer;
+  font-family: 'HK Grotesk-Bold', sans-serif;
+  display: flex;
+  padding: 8px 20px;
+  justify-content: center;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background-color: #A575AE;
+  border: none;
+  transition: all 1s;
+}
+
+.card__button:hover {
+  transform: scale(1.08);
+  color: yellow;
+}
+
+.color-white {
+  color: #FFFFFF;
+}
